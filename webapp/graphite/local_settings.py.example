@@ -219,3 +219,5 @@
 # MIDDLEWARE_CLASSES or APPS
 #from graphite.app_settings import *
 
+import fnmatch
+fnmatch._MAXCACHE = 3000
